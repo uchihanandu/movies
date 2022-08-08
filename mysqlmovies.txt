@@ -1,0 +1,28 @@
+CREATING DATABASE db1 in mySQL:
+>create database db1
+db1 created 
+
+>use db1 
+current database db1 
+
+
+CREATING TABLE Movies in mySQL:
+>create table Movies(
+>movie_name varchar2(50),
+>lead_actor varchar2(50),
+>lead_actress varchar2(50),
+>year_release varchar2(25),
+>director vacrhar2(50)
+>);
+Created table Movies
+
+INSERTING DATA INTO Movies TABLE:
+>insert into Movies values('LaLaLand','Ryan','Emma','2016','Damien');
+1 row inserted
+>insert into Movies values('Inception','Lenardo','Marion','2010','Christopher');
+1 row inserted
+>insert into Movies values('ForrestGump','Hanks','Robin','1994','Zemeckis');
+1 row inserted
+>insert into Movies values('Avatar','Sam','Zoe','2009','Cameron');
+1 row inserted
+
